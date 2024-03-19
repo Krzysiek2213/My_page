@@ -1,0 +1,25 @@
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    border: 1px solid red;
+}
+.header {
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-between;
+}
+.header_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+}
